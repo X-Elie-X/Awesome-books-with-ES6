@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-b">
+        <h1><a href="index.html">Awesome books</a></h1>
+        <ul>
+          <li><a href="#" class="list1">List</a></li>
+          <li><hr /></li>
+          <li><a href="#" class="add">Add new</a></li>
+          <li><hr /></li>
+          <li><a href="#" class="contact1">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="time"></div>
+    <section class="input1" id="input1">
+      <h2 class="title1">Add a new book</h2>
+      <form id="input" class="input2">
+        <input
+          type="text"
+          id="inputTitle"
+          placeholder="Title"
+          required
+          class="border"
+        />
+
+        <input
+          type="text"
+          id="inputAuthor"
+          placeholder="Author"
+          required
+          class="border"
+        />
+
+        <button type="submit" id="btn" class="btn">Add Book</button>
+      </form>
+    </section>
+    <h2 class="h2-list">All Awesome books</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="list" class="list"></tbody>
+    </table>
+    <section class="contact">
+      <h2 class="constact-info">Contact iformations</h2>
+      <p>Do have any question or you just want to say "Hello"</p>
+      <p>You can reach out to us!</p>
+      <ul>
+        <li>Email: elie7795@gmail.com</li>
+        <li>Number: +961######</li>
+        <li>Adress: Lebanon</li>
+      </ul>
+    </section>
+    <section class="copy">
+      <h4>@Copyrights:</h4>
+      <p>All rights reserved to "Elie Harfouche"</p>
+    </section>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="js/date.js"></script>
+  </body>
+</html>
