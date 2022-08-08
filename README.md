@@ -10,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]
+[Live Demo Link](https://x-elie-x.github.io/Awesome-books-with-ES6/index.html)
 
 ## Getting Started
 
