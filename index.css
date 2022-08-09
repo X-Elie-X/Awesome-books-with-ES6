@@ -154,6 +154,7 @@ hr {
 tr:nth-child(even) {
   background-color: #66b6d2;
   background-size: contain;
+  color: #141313;
 }
 
 .btn1 {
